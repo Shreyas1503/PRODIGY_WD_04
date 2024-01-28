@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#00172D}
+
+.header{
+    font-family: 'DM Serif Display', serif;
+    color:#00172D;
+    background:transparent;
+    top:0;
+    left:0;
+    padding:25px 5%;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    z-index:100;
+}
+.t1{
+    font-size: 30px;
+    color:aliceblue;
+    font-weight: 600;
+    text-decoration:none;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 25px;
+    color:aliceblue;
+    transition: .9s;
+}
+.navbar a:hover{
+    color:aqua;
+}
+.home{
+    align-items: center;
+    height:70vh;
+    color:aliceblue;
+    display:flex;
+    padding:0 5%;
+    font-family: 'Tektur', sans-serif;
+}
+.content{
+    max-width:600px;
+}
+.content h1{
+    font-size: 60px;
+    color:aliceblue;
+}
+.content h3{
+    font-size: 30px;
+    color:aliceblue;
+}
+.am1{
+    font-size: 60px;
+    font-family: 'Tektur', sans-serif;
+    color:aliceblue;
+    top:50px;
+}
+.mc{
+    margin-left:95px;
+    margin-top:60px;
+    width: 40%;
+    float: left;
+    background-color: skyblue;
+    padding: 20px;
+    border-radius:20px;
+    font-family: 'DM Serif Display', serif;
+}
+
+
